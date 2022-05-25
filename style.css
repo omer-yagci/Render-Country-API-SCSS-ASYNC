@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Caudex", serif;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, #ff9fc5, #bd7984);
+  text-align: center;
+  font-size: 2rem;
+}
+body h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 10px;
+  color: #3e0b1d;
+  text-decoration: underline;
+}
+body form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 2.5rem auto;
+}
+body form .search-input,
+body form .btn-search {
+  padding: 5px 10px;
+  border: none;
+  font-size: 1.1rem;
+  background-color: #f3f3f3;
+}
+body form .search-input:focus {
+  outline: none;
+}
+body form .btn-search {
+  cursor: pointer;
+}
+body .container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+body .container .country {
+  max-width: 350px;
+  background-color: #d9b3b6;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 10px;
+}
+body .container img {
+  width: 80%;
+  margin: 5px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+body .container .country__data {
+  width: 100%;
+}
+body .container .country__data .country__name,
+body .container .country__data .country__region,
+body .container .country__data .country__row {
+  text-align: center;
+  font-size: 1.1rem;
+  color: black;
+  margin: 5px auto;
+  font-weight: bold;
+  background-color: #f3f3f3;
+  border: 1px solid red;
+}
+body .borders {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  padding: 2rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body .borders img {
+  width: 80%;
+  margin: 5px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+body .borders .country__name,
+body .borders .country__region,
+body .borders .country__row {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  margin: 5px auto;
+  font-weight: bold;
+  background-color: #f3f3f3;
+  border: 0.1px solid red;
+}
+body .borders .country {
+  max-width: 350px;
+  background-color: #e6c4dc;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 10px;
+  width: 100%;
+}
+body .borders .country__img {
+  width: 50%;
+  height: auto;
+}
+body .borders-heading {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Caudex", serif;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, #ff9fc5, #bd7984);
+  text-align: center;
+  font-size: 2rem;
+
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px;
+    color: #3e0b1d;
+    text-decoration: underline;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 2.5rem auto;
+    .search-input,
+    .btn-search {
+      padding: 5px 10px;
+      border: none;
+      font-size: 1.1rem;
+      background-color: #f3f3f3;
+    }
+    .search-input:focus {
+      outline: none;
+    }
+    .btn-search {
+      cursor: pointer;
+    }
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    .country {
+      max-width: 350px;
+      background-color: #d9b3b6;
+      border-radius: 10px;
+      padding: 7px;
+      margin: 10px;
+    }
+    img {
+      width: 80%;
+      margin: 5px;
+      border-radius: 5px;
+      border: 3px solid black;
+    }
+    .country__data {
+      width: 100%;
+
+      .country__name,
+      .country__region,
+      .country__row {
+        text-align: center;
+        font-size: 1.1rem;
+        color: black;
+        margin: 5px auto;
+        font-weight: bold;
+        background-color: #f3f3f3;
+        border: 1px solid red;
+      }
+    }
+  }
+  .borders {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    img {
+      width: 80%;
+      margin: 5px;
+      border-radius: 5px;
+      border: 3px solid black;
+    }
+    .country__name,
+    .country__region,
+    .country__row {
+      text-align: center;
+      font-size: 1rem;
+      color: black;
+      margin: 5px auto;
+      font-weight: bold;
+      background-color: #f3f3f3;
+      border: 0.1px solid red;
+    }
+    .country {
+      max-width: 350px;
+      background-color: #e6c4dc;
+      border-radius: 10px;
+      padding: 7px;
+      margin: 10px;
+      width: 100%;
+    }
+    .country__img {
+      width: 50%;
+      height: auto;
+    }
+  }
+  .borders-heading {
+    display: none;
+  }
+}
